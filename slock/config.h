@@ -3,8 +3,8 @@ static const char *user  = "klungo";
 static const char *group = "klungo";
 
 static const char *colorname[NUMCOLS] = {
-	[INIT] =   "black",     /* after initialization */
-	[INPUT] =  "#005577",   /* during input */
+	[INIT] =   "orange",     /* after initialization */
+	[INPUT] =  "#5E81AC",   /* during input */
 	[FAILED] = "#CC3333",   /* wrong password */
 };
 
