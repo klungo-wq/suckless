@@ -66,6 +66,7 @@ static const char *volup[] = { "/home/klungo/.scripts/volumeup.sh", NULL };
 static const char *voldown[] = { "/home/klungo/.scripts/volumedown.sh", NULL };
 static const char *pcmanfm[] = { "pcmanfm", NULL };
 static const char *discord[] = { "discord", NULL };
+static const char *emacs[] = { "emacs", NULL };
 
 
 static Key keys[] = {
@@ -79,6 +80,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_z,      spawn,          {.v = voldown } },
 	{ MODKEY,                       XK_n,      spawn,          {.v = pcmanfm } },
 	{ MODKEY|ShiftMask,             XK_d,      spawn,          {.v = discord } },
+	{ MODKEY,                       XK_e,      spawn,          {.v = emacs } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
